@@ -51,3 +51,12 @@ También modificar la función "sim_reputation_match_event" situada en el archiv
  
 Igualmente, hace uso del archivo "reputation.data" para cotejar las URLS, dominios e IPS.
 Para las urls hacer uso de urlencode.
+
+Credits
+-------
+
+* Adrián Ruiz
+* w: funsecurity.net
+* t: @funsecurity.net
+* e: adrian_adrianruiz.net
+* GPG ID: 0x586270E8
