@@ -2,7 +2,7 @@ About ossim-reputation-ext
 -----------------------
 
 Extensión desarrollada en C para ossim-server para la detección de URLS y dominios.
-Para habilitarla modificar la función "sim_reputation_class_init":
+Para habilitarla modificar la función "sim_reputation_class_init" situada en el archivo "sim-reputation.c":
 
 ```
 static void
@@ -36,7 +36,7 @@ sim_reputation_class_init (SimReputationClass * class)
 }
 ```
 
-También modificar la función "sim_reputation_match_event":
+También modificar la función "sim_reputation_match_event" situada en el archivo "sim-reputation.c":
 
 ```
 	/**
